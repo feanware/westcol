@@ -1,4 +1,5 @@
 import { sedgwick } from "@/utils/fonts";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 export const metadata = {
@@ -12,7 +13,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className={sedgwick.className}>{children}</body>
+      <body className={sedgwick.className}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
