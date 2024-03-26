@@ -15,4 +15,4 @@ Si te apasiona el mundo del streaming y eres fan de Westcol, ¡tu ayuda es bienv
 Este sitio está construido con Next.js, aprovechando sus capacidades de renderizado del lado del servidor y generación de sitios estáticos para ofrecer una experiencia de usuario óptima.
 
 
-By Feanware
+**By Feanware**
