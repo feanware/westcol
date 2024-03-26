@@ -1,0 +1,77 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  text-align: center;
+  min-height: 100vh;
+  z-index: 1;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("/assets/images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+  z-index: -1;
+  min-height: 100vh;
+}
+
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.title span {
+  color: var(--color-primary);
+  font-size: 2.5rem;
+}
+
+.title span:first-child {
+  font-size: 2.8rem;
+  color: #fff;
+}
+
+.social {
+  background-color: white;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  padding: 0 1rem;
+  width: 250px;
+}
+
+.socialList {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.socialList li:hover {
+  transform: scale(1.1);
+ 
+  transition: all 0.3s;
+}

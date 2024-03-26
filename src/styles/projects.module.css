@@ -1,0 +1,29 @@
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 40vh;
+    padding: 1rem;
+}
+
+.projectsTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.projectsTitle span {
+    color: var(--color-primary);
+    font-size: 2.5rem;
+}
+
+.projectsList {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}

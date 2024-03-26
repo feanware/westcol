@@ -1,0 +1,36 @@
+.music {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    z-index: 1000;
+  }
+  
+  .buttonMusicButton {
+    background-color: var(--color-primary);
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    animation: pulse 2s infinite; /* Aplica la animación pulse de manera infinita */
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+      border-color: rgba(30, 255, 0, 0.2);
+    }
+    50% {
+      transform: scale(1.1);
+      border-color: rgba(127, 255, 15, 0.5); /* Ajusta el color y la opacidad para el efecto deseado */
+    }
+  }
+  

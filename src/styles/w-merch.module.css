@@ -1,0 +1,24 @@
+
+.wMerch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 2rem;
+  min-height: 40vh;
+  padding: 1rem;
+}
+
+.wMerchTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.wMerchTitle span {
+  color: var(--color-primary);
+  font-size: 2.5rem;
+}
